@@ -1,0 +1,56 @@
+.bg-background{
+    /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./images/netflix-bg.jpeg); */
+    background-image:linear-gradient(to top,black,rgba(0, 0, 0, 0) 50%,black),url(./images/netflix-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: auto;
+    }
+    
+    .font-text{
+        font-size: 4rem;
+        font-weight: 900;
+        color: white;
+    }
+    
+    .netflixLogo{
+        height: 50px;
+        width: 150px;
+    }
+    
+    .first-section{
+        height: 550px;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-top: 100px; */
+    }
+    hr{
+        /* border: 10px solid rgba(35,35,35)100%; */
+        margin: auto;
+        height: 10px !important ;
+    }
+    .email-text{
+        background-color: transparent;
+        width: 400px;
+        color: white;
+    }
+    .second-section{
+        height: 600px;
+        background-color:black ;
+    }
+    .first-section-div{
+        height: 500px;
+        width:90%;
+    }
+    .contect-div{
+        height:400px;
+        width: 45%;
+        background-color: yellow;
+    }
+    .image-div{
+        height:400px;
+        width: 45%;
+        background-color: pink;
+    }

@@ -1,0 +1,155 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.bg-background{
+    /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./images/netflix-bg.jpeg); */
+    background-image:linear-gradient(to right,#00081d,transparent),url(./images/netflix-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    /* margin: auto; */
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid red; */
+    /* background-color:linear-gradient(to bottom,transparent,#00081d) */
+    }
+    .main-row{
+        position: relative;
+        height:100%;
+        background-color: #00081d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .font-text{
+        font-size: 4rem;
+        font-weight: 800;
+        color: white;
+    }
+    
+    .netflixLogo{
+        height: 50px;
+        width: 180px;
+    }
+    
+    .first-section{
+        height: 550px;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-top: 100px; */
+    }
+    hr{
+        /* border: 10px solid rgba(35,35,35)100%; */
+        margin: auto;
+        height: 10px !important ;
+    }
+    .email-text{
+        background-color: transparent;
+        width: 400px;
+        color: white;
+    }
+    .second-section{
+        /* position: absolute;
+        z-index: 1; */
+        /* width: 100%; */
+        /* margin-top: 1446px  ; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background: linear-gradient(to bottom,transparent,#00081d,#00081d,#00081d,#00081d,
+        #00081d,#00081d,#00081d,#00081d,#00081d,#00081d,#00081d,#00081d,
+        #00081d,#00081d,#00081d,#00081d,#00081d,#00081d,#00081d,#00081d);
+        /* background-color:#00081d ; */
+        
+    }
+    .FAQ-section{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: white;
+        margin-top: 100px;
+
+    }
+    .first-section-div{
+        height: 500px;
+        width:90%;
+    }
+    .article-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-div{
+        /* height:200px; */
+        width: 399px;
+        /* background-color: yellow; */
+        /* color: white; */
+        
+    }
+    .image-div{
+        /* height: 299px; */
+        width: 399px;
+        position: relative;
+        /* background-color: pink; */
+    }
+     .image-div > img{
+        height: 299px;
+        width: 399px;
+        
+     }
+     .video{
+        position: absolute;
+        z-index: 1;
+        top: 55px;
+        width: 331px;
+        left: 33px;
+        /* height: 299px; */
+     }
+     .product_card{
+        background: radial-gradient(99.93% 134.44% at 17.93% 0%, #09143C 0%, #101338 57.21%, #400E20 99.57%);
+        border-radius: 5%;
+        box-shadow: 0,0,10;
+     }
+     .accordian-color{
+        background-color: #132144!important;
+        color: white !important;
+        font-size: 1.5rem;
+        background-image: white !important;
+     }
+     .accordian-dropdown-color{
+        background-color: #223362!important;
+        color: white !important;
+        font-size: 1rem;
+     }
+     .accordion-button::after{
+        color: white !important;
+     }
+     .normal-text{
+        font-size: 1.5rem;
+     }
+
+     .question-tab{
+        font-size: .5 rem;
+        color:#8f929c;
+        margin-top: 80px;
+       /* padding: 40px; */
+
+     }
+     a{
+        color: #8f929c;
+        
+     }
+     .footer-list{
+        display: flex;
+        /* padding-left: 12px; */
+        justify-content: flex-start;
+        align-items: baseline;
+        flex-wrap: wrap;
+        list-style: none;
+     }
+     .footer-list>li{
+        /* padding-right:130px; */
+        padding-bottom:30px;
+     }
